@@ -1,0 +1,21 @@
+class HyperParams:
+  n_fft= 1200
+  num_freq= 601 # n_fft//2 + 1
+  sample_rate= 16000
+  hop_length= 160
+  win_length= 400
+  min_level_db= -100.0
+  ref_level_db= 20.0
+  preemphasis= 0.97
+  power= 0.30
+  embedder_window= 80
+  data_audio_len= 3.0
+  embedder_num_mels= 40
+  embedder_lstm_hidden = 768
+  embedder_emb_dim = 256
+  embedder_lstm_layers = 3
+  embedder_window = 80
+  embedder_stride = 40
+  model_lstm_dim = 400
+  model_fc1_dim = 600
+  model_fc2_dim = 601 # num_freq
